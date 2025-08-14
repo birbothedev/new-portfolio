@@ -1,0 +1,38 @@
+.project-component-wrapper {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.project-components {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 8px;
+    outline: 2px solid #2B1B17;
+    padding: 0;
+    transform: none;
+    background-color: #Ffffff;
+}
+
+.project-label-and-desc {
+    background-color: #ffffff;
+    width: 100%;
+}
+.project-components:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 10px 10px 20px rgba(115, 2, 8, 1.0);
+    cursor: pointer;
+}
+
+.label-text {
+    line-height: 1.5;
+}
+
+.description-text {
+    line-height: normal;
+}
