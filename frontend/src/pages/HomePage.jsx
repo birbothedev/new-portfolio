@@ -10,41 +10,33 @@ export function HomePage() {
                     Hello, my name is <strong className="strong-text">Gina Fender</strong> and here are some projects I have been working on! I am a passionate and adaptable software developer who thrives on learning new technologies and tackling complex challenges. 
                 </h3>
                 <div className="projects-wrapper">
+                    <h3 className="text">Featured Projects</h3>
                     <div className="project-component-container">
                         <div className="project-components">
                             <ProjectComponent 
-                                label="Dot Game"
+                                label="DnD Spell Guessing Game"
                                 description="This is a description of the project"
+                                link=""
+                                image="../public/images/intelligenceCheck.png"
+                                imgText="dnd game"
                             />
                         </div>
                         <div className="project-components">
                             <ProjectComponent 
-                                label="Dot Game"
+                                label="DnD Spell Guessing Game"
                                 description="This is a description of the project"
+                                link=""
+                                image="../public/images/intelligenceCheck.png"
+                                imgText="dnd game"
                             />
                         </div>
                         <div className="project-components">
                             <ProjectComponent 
-                                label="Dot Game"
+                                label="DnD Spell Guessing Game"
                                 description="This is a description of the project"
-                            />
-                        </div>
-                        <div className="project-components">
-                            <ProjectComponent 
-                                label="Dot Game"
-                                description="This is a description of the project"
-                            />
-                        </div>
-                        <div className="project-components">
-                            <ProjectComponent 
-                                label="Dot Game"
-                                description="This is a description of the project"
-                            />
-                        </div>
-                        <div className="project-components">
-                            <ProjectComponent 
-                                label="Dot Game"
-                                description="This is a description of the project"
+                                link=""
+                                image="../public/images/intelligenceCheck.png"
+                                imgText="dnd game"
                             />
                         </div>
                     </div>

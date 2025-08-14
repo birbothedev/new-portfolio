@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: fit-content;
     height: 100%;
     margin: 0;
     border-radius: 8px;
@@ -20,7 +20,7 @@
 
 .project-label-and-desc {
     background-color: #ffffff;
-    width: 100%;
+    width: fit-content;
 }
 .project-components:hover {
     transform: translateY(-5px);
