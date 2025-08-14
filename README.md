@@ -1,4 +1,4 @@
 # new-portfolio
 
 ## colors used
-- orange #F54927
+- orange #FAA18F
