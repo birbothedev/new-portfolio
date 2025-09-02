@@ -68,14 +68,14 @@ body {
 
 .profile-image {
     width: 300px;
-    aspect-ratio: 1; /* keeps it square */
-    border-radius: 50%; /* makes it a circle */
-    border: 5px solid #FB2C36; /* circle border */
+    aspect-ratio: 1; 
+    border-radius: 50%;
+    border: 5px solid #FB2C36; 
     
     /* Image inside the circle */
     background-image: url('../images/profileimage.jpg');
-    background-size: cover;      /* fill the circle */
-    background-position: center; /* center the image */
+    background-size: cover;     
+    background-position: center; 
     background-repeat: no-repeat;
 
     cursor: pointer;
@@ -91,7 +91,6 @@ body {
     animation: glideDown .5s ease-out forwards;
 }
 
-/* Keyframes for sliding from top */
 @keyframes glideDown {
     0% {
         transform: translateY(-100vh); 
