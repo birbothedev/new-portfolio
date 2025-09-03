@@ -1,26 +1,30 @@
 .project-component-wrapper {
-    background-color: #ffffff;
+    outline: 2px solid #2B1B17;
     border-radius: 8px;
+    max-width: 288px;
 }
 
-.project-components {
+.project-component {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: fit-content;
     height: 100%;
     margin: 0;
     border-radius: 8px;
-    outline: 2px solid #2B1B17;
     padding: 0;
     transform: none;
-    background-color: #Ffffff;
+    background-color: #FB2C36;
 }
 
 .project-label-and-desc {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 8px 8px;
 }
 .project-components:hover {
     transform: translateY(-5px);
@@ -31,8 +35,26 @@
 
 .label-text {
     line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.project-image {
+    background-color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px 8px 0 0;
 }
 
 .description-text {
     line-height: normal;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: .5rem;
+    border-radius: 8px;
+}
+
+.github-link:hover {
+    color: purple;
 }
