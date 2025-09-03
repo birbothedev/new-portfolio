@@ -1,6 +1,7 @@
 import '../css/HomePage.css'
 import { ProjectComponent } from '../components/ProjectComponent'
 import { useState } from 'react'
+import { GameComponent } from '../components/GameComponent';
 
 export function HomePage() {
     const [hasGlasses, setHasGlasses] = useState(false);
@@ -82,7 +83,7 @@ export function HomePage() {
                                 description="A basic tictactoe game built with VanillaJS, HTML, and CSS. Players can play locally against each other."
                                 link="https://birbothedev.github.io/tictactoe-jsproject2/"
                                 image="../images/tictactoe.png"
-                                imgText="mushie game"
+                                imgText="tictactoe"
                                 githublink="https://github.com/birbothedev/tictactoe-jsproject2/blob/main/scripts/scripts.js"
                             />
                         </div>
@@ -90,10 +91,10 @@ export function HomePage() {
                             <ProjectComponent 
                                 label="Rocky App"
                                 description="An Android app built using Kotlin. Pulls jokes from the Jokes API and keeps track of pet rock information"
-                                link="https://birbothedev.github.io/tictactoe-jsproject2/"
+                                link="https://github.com/birbothedev/mobile_app_proj4/tree/main/app/src/main/java/com/example/project4/main"
                                 image="../images/rockapp.png"
-                                imgText="mushie game"
-                                githublink="https://github.com/birbothedev/tictactoe-jsproject2/blob/main/scripts/scripts.js"
+                                imgText="rrock app"
+                                githublink="https://github.com/birbothedev/mobile_app_proj4/tree/main/app/src/main/java/com/example/project4/main"
                             />
                         </div>
                         <div className="other-projects">
@@ -108,7 +109,8 @@ export function HomePage() {
                     </div>
                 </div>
                 <div className="game-container">
-                    
+                    <h2 className="other-proj-title">Enjoy this game I made!</h2>
+                    <GameComponent />
                 </div>
             </div>
         </div>

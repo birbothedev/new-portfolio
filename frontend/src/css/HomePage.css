@@ -139,3 +139,8 @@ body {
     box-shadow: 10px 10px 20px rgba(115, 2, 8, 1.0);
     cursor: pointer;
 }
+
+.game-container {
+    width: 100%;
+    margin: 0 auto;
+}
