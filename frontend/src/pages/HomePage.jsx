@@ -108,6 +108,7 @@ export function HomePage() {
                     </div>
                 </div>
                 <div className="game-container">
+                    
                 </div>
             </div>
         </div>
