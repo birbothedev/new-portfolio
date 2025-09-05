@@ -1,9 +1,30 @@
 .game-area-wrapper {
+    position: relative;
     width: 100%;
     height: auto;
-    /* outline: dashed 2px red; */
 }
 
 .game-canvas {
     outline: dashed 2px blue;
+    background-color: #FB892C;
+}
+
+.play-button {
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* centers button */
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: #4caf50;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.play-button:hover {
+    background: #45a049;
 }

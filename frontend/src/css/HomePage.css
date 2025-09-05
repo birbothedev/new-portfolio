@@ -142,7 +142,7 @@ body {
 
 .game-container {
     width: 100%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     gap: 2rem;
     display: flex;
     flex-direction: column;
