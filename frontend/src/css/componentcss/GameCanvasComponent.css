@@ -1,0 +1,9 @@
+.game-area-wrapper {
+    width: 100%;
+    height: auto;
+    /* outline: dashed 2px red; */
+}
+
+.game-canvas {
+    outline: dashed 2px blue;
+}

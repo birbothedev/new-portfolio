@@ -1,7 +1,7 @@
 import '../css/HomePage.css'
 import { ProjectComponent } from '../components/ProjectComponent'
 import { useState } from 'react'
-import { GameComponent } from '../components/GameComponent';
+import { GameCanvasComponent } from '../components/GameCanvasComponent';
 
 export function HomePage() {
     const [hasGlasses, setHasGlasses] = useState(false);
@@ -110,7 +110,7 @@ export function HomePage() {
                 </div>
                 <div className="game-container">
                     <h2 className="other-proj-title">Enjoy this game I made!</h2>
-                    <GameComponent />
+                    <GameCanvasComponent />
                 </div>
             </div>
         </div>
