@@ -149,3 +149,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.year-labels {
+    border-radius: 8px;
+}
