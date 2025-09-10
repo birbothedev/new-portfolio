@@ -2,6 +2,7 @@ import '../css/HomePage.css'
 import { ProjectComponent } from '../components/ProjectComponent'
 import { useState } from 'react'
 import { GameCanvasComponent } from '../components/GameCanvasComponent';
+import { ContactForm } from '../components/ContactForm';
 
 export function HomePage() {
     const [hasGlasses, setHasGlasses] = useState(false);
@@ -144,6 +145,7 @@ export function HomePage() {
                     <h2 className="other-proj-title">I am currently working on a browser game built right into this page, stay tuned!</h2>
                     <GameCanvasComponent />
                 </div>
+                {/* <ContactForm /> */}
             </div>
         </div>
         </>
