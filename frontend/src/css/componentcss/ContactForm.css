@@ -1,6 +1,6 @@
 .form-wrapper {
     top: 20%;
-    position: absolute;
+    position: fixed;
     z-index: 1000;
     background-color: #FB2C36;
     border-radius: 8px;
@@ -9,6 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    outline: 5px solid black;
+    box-shadow: 10px 10px 20px rgba(115, 2, 8, 1.0);
 }
 
 .contact-form {
@@ -16,7 +18,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    width: 40%;
+    width: 80%;
     padding: 2rem;
 }
 

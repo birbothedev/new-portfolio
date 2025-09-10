@@ -130,22 +130,12 @@ export function HomePage() {
                                 githublink="https://github.com/birbothedev/bloopyGame"
                             />
                         </div>
-                        {/* <div className="other-projects">
-                            other project
-                        </div>
-                        <div className="other-projects">
-                            other project
-                        </div>
-                        <div className="other-projects">
-                            other project
-                        </div> */}
                     </div>
                 </div>
                 <div className="game-container">
                     <h2 className="other-proj-title">I am currently working on a browser game built right into this page, stay tuned!</h2>
                     <GameCanvasComponent />
                 </div>
-                {/* <ContactForm /> */}
             </div>
         </div>
         </>
